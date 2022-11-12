@@ -1,0 +1,64 @@
+.header-content{
+    width: 1400px;
+    margin: 0 auto;
+}
+.navbar{
+    width: 1400px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-menu{
+    display: flex;
+    gap: 30px;
+    color: $gray;
+}
+.navbar-menu__link.active-link{
+    color: $brand-color;
+}
+.header-content{
+    display: flex;
+    margin-top: 133px;
+}
+.header-content__info{
+    margin-left: 78px;
+}
+.content-title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.content-desc{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    color: $gray;
+}
+.content-desc button{
+    @include btnyellow;
+    margin-top: 30px;
+}
+.leftimg{
+    position: absolute;
+    top: 90px;
+}
+.rightimg{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
+.header-content__title h2{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-top: 130px;
+}
+.header-content__cards{
+    @include card;
+    
+}

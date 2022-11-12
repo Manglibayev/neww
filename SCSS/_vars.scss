@@ -1,0 +1,21 @@
+$gray: #7A7A7A;
+$brand-color: #F8B07C;
+@mixin btnyellow {
+    padding: 10px 20px;
+    color: #ffffff;
+    background: #F8B07C;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+}
+@mixin card {
+    height: 400px;
+    width: 320px;
+    left: 0px;
+    top: 0px;
+    border-radius: 14px;
+    border: $gray;
+    box-shadow: #7A7A7A;
+}
